@@ -1,0 +1,9 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  run:
+    dir: cmd
+    cmds:
+      - go run .
