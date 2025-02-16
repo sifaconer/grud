@@ -6,4 +6,4 @@ tasks:
   run:
     dir: cmd
     cmds:
-      - go run .
+      - go run . -dsn=postgres://postgres:postgres@localhost:5432/leads?sslmode=disable
